@@ -2,6 +2,8 @@
 
 You can follow same procedure in the official  AWS document [Getting started with Amazon EKS – eksctl](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html)   
 
+**Note: Every binary be it kubectl, eksctl or aws cli should be in the /usr/local/bin so that path need not to be provide again and again for the same binary installation or execution
+
 #### Pre-requisites: 
   - an EC2 Instance (Kubernetes Management Host)
 
