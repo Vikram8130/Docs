@@ -30,7 +30,7 @@ vi /etc/passwd
 change shell from /bin/false to /bin/bash
 ```
 
-# AWS CLI also needs to be installed on Jenkins Server
+# AWS CLI also needs to be installed/updated on Jenkins Server for deployment on to eks clusters
 https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
