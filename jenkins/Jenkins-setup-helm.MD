@@ -1,3 +1,7 @@
+### Attach prevoiusly created IAM role to the Jenkins Server(having eks cluster config file)
+For communication between Jenkins server and EKS cluster 
+
+
 ### Jenkins server setup with Helm to deploy into Kubernetes cluster
 
 ## Download and Install helm 
@@ -13,10 +17,15 @@ helm version
 helm list
 ```
 
-## Copy config file from EKS Management host to Jenkins home directory
+## Copy config file from EKS Management host to Jenkins home directory 
+(For connectivity between Jenkins Server and EKS Cluster)
 ```sh
 mkdir /var/lib/jenkins/.kube
 copy config file under .kube directory with jenkins ownership
+
+chmod 600 /var/lib/jenkins/.kube/config
+helm repo list 
+ 
 ```
 
 
