@@ -18,4 +18,4 @@ chkconfig docker on -> to make sure docker remains online during the boot time.
    jenkins ALL=(ALL) NOPASSWD: ALL
 ```   
    
-
+## After this install docker and maven-integration plugins to set up docker and maven on jenkins
