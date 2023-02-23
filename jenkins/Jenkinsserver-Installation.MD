@@ -46,6 +46,12 @@ wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenki
 rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 yum -y install jenkins
 ```
+# service jenkins status
+
+# service jenkins start 
+
+# chkconfig jenkins on ( to make the jenkins service online permanently)
+# netstat -ntlp ( to check on which port jenkins java service is running)
 
 ### Start Jenkins
 ```sh
