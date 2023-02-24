@@ -7,6 +7,7 @@ helm search rep <reponame>
 helm install repo stable/<chartname> <releasename>
   
 helm pull <chartname>
+helm pull stable/mysql
   
 helm package <chartname>
 
